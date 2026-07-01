@@ -94,11 +94,15 @@
         <option value="Claude Sonnet 4.6 Medium">Claude Sonnet 4.6 Medium</option>
         <option value="Claude Sonnet 4.6 High">Claude Sonnet 4.6 High</option>
         <option value="Claude Sonnet 4.6 Max">Claude Sonnet 4.6 Max</option>
+        <option value="Claude Sonnet 5 Low">Claude Sonnet 5 Low</option>
+        <option value="Claude Sonnet 5 Medium">Claude Sonnet 5 Medium</option>
+        <option value="Claude Sonnet 5 High">Claude Sonnet 5 High</option>
+        <option value="Claude Sonnet 5 Max">Claude Sonnet 5 Max</option>
         <option value="Custom">Custom</option>
     </select>
     <input type="text" id="custom-ai-model" placeholder="Enter custom AI Model" style="display: none;">
 
-    <label for="reasoning-mode">Reasoning:</label>
+    <label for="reasoning-mode">Reasoning/Thinking:</label>
     <select id="reasoning-mode" onchange="document.getElementById('custom-reasoning-mode').style.display = this.value === 'Custom' ? 'block' : 'none';">
         <option value="Standard">Standard</option>
         <option value="Extended">Extended</option>
